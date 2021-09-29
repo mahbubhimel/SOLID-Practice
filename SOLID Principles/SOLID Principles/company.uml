@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.company</OriginalElement>
+  <nodes>
+    <node x="1766.375" y="81.0">com.company.TreeCutter</node>
+    <node x="1618.375" y="81.0">com.company.ChopWood</node>
+    <node x="1335.125" y="81.0">com.company.WoodCutter</node>
+    <node x="591.7924528301887" y="81.0">com.company.Bike</node>
+    <node x="1134.2287735849056" y="263.0">com.company.CoffeeMakerRobotWithCappuccinoAndExpressCoffee</node>
+    <node x="1192.125" y="182.0">com.company.ExpressCoffee</node>
+    <node x="330.125" y="182.0">com.company.CoffeeMakerRobot</node>
+    <node x="863.125" y="182.0">com.company.DriverRobotWhoCanDriveCarAndPlane</node>
+    <node x="0.0" y="339.0">com.company.Main</node>
+    <node x="0.0" y="182.0">com.company.KacchiBiriyani</node>
+    <node x="1039.2924528301887" y="81.0">com.company.Car</node>
+    <node x="1357.125" y="182.0">com.company.GardenerRobotWithWoodChopAndWoodCutAbility</node>
+    <node x="979.625" y="0.0">com.company.Robot</node>
+    <node x="1771.125" y="182.0">com.company.GardenerRobotWithWoodChopAndTreeCutAbility</node>
+    <node x="164.0" y="182.0">com.company.BiriyaniMaker</node>
+    <node x="886.2924528301887" y="81.0">com.company.DriverRobot</node>
+    <node x="718.2240566037735" y="81.0">com.company.Plane</node>
+    <node x="2036.125" y="81.0">com.company.GardenerRobot</node>
+    <node x="272.60377358490564" y="81.0">com.company.ChefRobot</node>
+    <node x="2173.125" y="182.0">com.company.Cappuccino</node>
+    <node x="528.125" y="182.0">com.company.DriverRobotWhoCanDrivePlaneAndBike</node>
+    <node x="0.5" y="263.0">com.company.BiriyaniMakerRobotWithKacchiBiriyani</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.company.ChefRobot" target="com.company.Robot" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="334.10377358490564" y="56.0" />
+      <point x="1026.125" y="56.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.company.DriverRobotWhoCanDrivePlaneAndBike" target="com.company.Plane" relationship="REALIZATION">
+      <point x="-78.75" y="-15.5" />
+      <point x="606.875" y="162.0" />
+      <point x="689.7287735849056" y="162.0" />
+      <point x="689.7287735849056" y="152.0" />
+      <point x="762.2240566037735" y="152.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.company.DriverRobot" target="com.company.Robot" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="952.7924528301887" y="56.0" />
+      <point x="1026.125" y="56.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.company.DriverRobotWhoCanDriveCarAndPlane" target="com.company.Car" relationship="REALIZATION">
+      <point x="77.25" y="-15.5" />
+      <point x="1094.875" y="162.0" />
+      <point x="1038.9787735849056" y="162.0" />
+      <point x="1038.9787735849056" y="152.0" />
+      <point x="1076.2924528301887" y="152.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.company.DriverRobotWhoCanDrivePlaneAndBike" target="com.company.DriverRobot" relationship="GENERALIZATION">
+      <point x="78.75" y="-15.5" />
+      <point x="764.375" y="162.0" />
+      <point x="952.7924528301887" y="162.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.company.BiriyaniMakerRobotWithKacchiBiriyani" target="com.company.BiriyaniMaker" relationship="GENERALIZATION">
+      <point x="76.5" y="-15.5" />
+      <point x="230.0" y="243.0" />
+      <point x="235.0" y="243.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.company.BiriyaniMaker" target="com.company.ChefRobot" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="235.0" y="162.0" />
+      <point x="334.10377358490564" y="162.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.company.GardenerRobotWithWoodChopAndTreeCutAbility" target="com.company.ChopWood" relationship="REALIZATION">
+      <point x="-95.5" y="-15.5" />
+      <point x="1866.625" y="162.0" />
+      <point x="1754.625" y="162.0" />
+      <point x="1754.625" y="132.0" />
+      <point x="1682.375" y="132.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.company.DriverRobotWhoCanDriveCarAndPlane" target="com.company.Plane" relationship="REALIZATION">
+      <point x="77.25" y="-15.5" />
+      <point x="1094.875" y="162.0" />
+      <point x="1038.9787735849056" y="162.0" />
+      <point x="1038.9787735849056" y="142.0" />
+      <point x="762.2240566037735" y="142.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.company.GardenerRobotWithWoodChopAndTreeCutAbility" target="com.company.GardenerRobot" relationship="GENERALIZATION">
+      <point x="95.5" y="-15.5" />
+      <point x="2057.625" y="152.0" />
+      <point x="2113.125" y="152.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.company.BiriyaniMakerRobotWithKacchiBiriyani" target="com.company.KacchiBiriyani" relationship="REALIZATION">
+      <point x="-76.5" y="-15.5" />
+      <point x="77.0" y="243.0" />
+      <point x="72.0" y="243.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.company.GardenerRobotWithWoodChopAndWoodCutAbility" target="com.company.WoodCutter" relationship="REALIZATION">
+      <point x="-98.5" y="-15.5" />
+      <point x="1455.625" y="162.0" />
+      <point x="1479.5424528301887" y="162.0" />
+      <point x="1479.5424528301887" y="132.0" />
+      <point x="1401.625" y="132.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.company.CoffeeMakerRobotWithCappuccinoAndExpressCoffee" target="com.company.ExpressCoffee" relationship="REALIZATION">
+      <point x="101.75" y="-15.5" />
+      <point x="1439.4787735849056" y="243.0" />
+      <point x="1760.4787735849056" y="243.0" />
+      <point x="1760.4787735849056" y="233.0" />
+      <point x="1264.625" y="233.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.company.GardenerRobotWithWoodChopAndWoodCutAbility" target="com.company.GardenerRobot" relationship="GENERALIZATION">
+      <point x="98.5" y="-15.5" />
+      <point x="1652.625" y="152.0" />
+      <point x="2113.125" y="152.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.company.DriverRobotWhoCanDrivePlaneAndBike" target="com.company.Bike" relationship="REALIZATION">
+      <point x="-78.75" y="-15.5" />
+      <point x="606.875" y="162.0" />
+      <point x="689.7287735849056" y="162.0" />
+      <point x="689.7287735849056" y="142.0" />
+      <point x="631.7924528301887" y="142.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.company.CoffeeMakerRobot" target="com.company.ChefRobot" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="419.125" y="162.0" />
+      <point x="334.10377358490564" y="162.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.company.GardenerRobot" target="com.company.Robot" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="2113.125" y="56.0" />
+      <point x="1026.125" y="56.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.company.GardenerRobotWithWoodChopAndWoodCutAbility" target="com.company.ChopWood" relationship="REALIZATION">
+      <point x="-98.5" y="-15.5" />
+      <point x="1455.625" y="162.0" />
+      <point x="1479.5424528301887" y="162.0" />
+      <point x="1479.5424528301887" y="142.0" />
+      <point x="1682.375" y="142.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.company.CoffeeMakerRobotWithCappuccinoAndExpressCoffee" target="com.company.CoffeeMakerRobot" relationship="GENERALIZATION">
+      <point x="-101.75" y="-15.5" />
+      <point x="1235.9787735849056" y="243.0" />
+      <point x="419.125" y="243.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.company.DriverRobotWhoCanDriveCarAndPlane" target="com.company.DriverRobot" relationship="GENERALIZATION">
+      <point x="-77.25" y="-15.5" />
+      <point x="940.375" y="162.0" />
+      <point x="952.7924528301887" y="162.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.company.CoffeeMakerRobotWithCappuccinoAndExpressCoffee" target="com.company.Cappuccino" relationship="REALIZATION">
+      <point x="101.75" y="-15.5" />
+      <point x="1439.4787735849056" y="243.0" />
+      <point x="1760.4787735849056" y="243.0" />
+      <point x="1760.4787735849056" y="233.0" />
+      <point x="2238.125" y="233.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.company.GardenerRobotWithWoodChopAndTreeCutAbility" target="com.company.TreeCutter" relationship="REALIZATION">
+      <point x="-95.5" y="-15.5" />
+      <point x="1866.625" y="162.0" />
+      <point x="1754.625" y="162.0" />
+      <point x="1754.625" y="142.0" />
+      <point x="1826.875" y="142.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.4173838209982788" showDependencies="false" x="1306.5340206185567" y="482.0886597938144" />
+  <SelectedNodes>
+    <node>com.company.Car</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
