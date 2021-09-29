@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ebad46df-52aa-4adb-bddf-e895f7bd3cd3" name="Changes" comment="" />
+    <list default="true" id="ebad46df-52aa-4adb-bddf-e895f7bd3cd3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOLID Principles/com/company/Bike.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOLID Principles/com/company/BiriyaniMaker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOLID Principles/com/company/BiriyaniMakerRobotWithKacchiBiriyani.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOLID Principles/com/company/Cappuccino.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOLID Principles/com/company/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOLID Principles/com/company/ChefRobot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOLID Principles/com/company/ChopWood.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOLID Principles/com/company/CoffeeMakerRobot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOLID Principles/com/company/CoffeeMakerRobotWithCappuccinoAndExpressCoffee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOLID Principles/com/company/DriverRobot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOLID Principles/com/company/DriverRobotWhoCanDriveCarAndPlane.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOLID Principles/com/company/DriverRobotWhoCanDrivePlaneAndBike.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOLID Principles/com/company/ExpressCoffee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOLID Principles/com/company/GardenerRobot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOLID Principles/com/company/GardenerRobotWithWoodChopAndTreeCutAbility.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOLID Principles/com/company/GardenerRobotWithWoodChopAndWoodCutAbility.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOLID Principles/com/company/KacchiBiriyani.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOLID Principles/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOLID Principles/com/company/Plane.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOLID Principles/com/company/Robot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOLID Principles/com/company/TreeCutter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOLID Principles/com/company/WoodCutter.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,6 +115,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -99,21 +126,17 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk-16.0.2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="SOLID Principles" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -126,6 +149,7 @@
       <workItem from="1632825995578" duration="9926000" />
       <workItem from="1632893588727" duration="10457000" />
       <workItem from="1632907592633" duration="2768000" />
+      <workItem from="1632915648049" duration="288000" />
     </task>
     <servers />
   </component>
