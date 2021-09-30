@@ -1,5 +1,9 @@
 package com.company;
 
-public interface Car  {
-    public void driveCar();
+public class Car implements Vehicle  {
+
+    @Override
+    public void driveVehicle() {
+        System.out.println("I can drive Car");
+    }
 }

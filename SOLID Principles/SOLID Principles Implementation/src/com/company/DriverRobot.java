@@ -5,7 +5,12 @@ public class DriverRobot extends Robot{
     void walk() {
         System.out.println("I can walk faster than by parent robot");
     }
-    public void canDrive(){
-        System.out.println("I know the basics of driving");
+    public void drive(Vehicle vehicle){
+        vehicle.driveVehicle();
+    }
+
+    @Override
+    void speak() {
+        System.out.println("I am speaking from driver robot");
     }
 }

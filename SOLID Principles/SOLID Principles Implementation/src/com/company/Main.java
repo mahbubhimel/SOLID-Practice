@@ -35,22 +35,23 @@ public class Main {
 
         BiriyaniMakerRobotWithKacchiBiriyani b = new BiriyaniMakerRobotWithKacchiBiriyani();
         RobotSeminar(b);
+        b.cooking();
         b.cookKacchi();
         b.biriyaniBasics();
 
         System.out.println();
         System.out.println("Driving Robot");
-        DriverRobotWhoCanDriveCarAndPlane cp = new DriverRobotWhoCanDriveCarAndPlane();
-        RobotSeminar(cp);
-        cp.canDrive();
-        cp.driveCar();
-        cp.drivePlane();
+
+        DriverRobot dr = new DriverRobot();
+        dr.drive(new Plane());
+        RobotSeminar(dr);
 
         System.out.println();
 
-        DriverRobotWhoCanDrivePlaneAndBike pb = new DriverRobotWhoCanDrivePlaneAndBike();
-        pb.drivePlane();
-        pb.driveBike();
+        CoffeeMakerIsAWoodCutterAndHasACarAndPlane wc = new CoffeeMakerIsAWoodCutterAndHasACarAndPlane();
+        wc.showOffVehicleSkill();
+        wc.cutWood();
+        wc.makeCoffee();
 
 
     }

@@ -1,5 +1,13 @@
 package com.company;
 
-public interface Plane {
-  public void drivePlane();
+public class Plane implements Vehicle {
+
+  @Override
+  public void driveVehicle() {
+    System.out.println("I can fly Plane");
+  }
+
+  public void hi(){
+    System.out.println("Hi");
+  }
 }
